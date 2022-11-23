@@ -73,11 +73,11 @@
   </a>
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api?username=quangduy201&show_icons=true&locale=en" alt="quangduy201"/></p>
-
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=quangduy201&show_icons=true&locale=en&layout=compact" alt="quangduy201"/></p>
 
-<p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=quangduy201&" alt="quangduy201"/></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=quangduy201&show_icons=true&locale=en" alt="quangduy201"/></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=quangduy201&" alt="quangduy201"/></p>
 
 
 <!---
