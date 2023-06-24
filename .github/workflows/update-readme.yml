@@ -1,0 +1,26 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 0 20 1 *' # Runs at 00:00 on January 20th every year
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Update README
+        run: |
+          node update-readme.js
+          git config --global user.name "Quang Duy"
+          git config --global user.email "dinhduy2012003@gmail.com"
+          git commit -am "Update README.md"
+          git push
